@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <GymProvider>
           <Navbar />
-          <main>
+          <main className="pt-[64px]">
             {children}
           </main>
           <Footer />
