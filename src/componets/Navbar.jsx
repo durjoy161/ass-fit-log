@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 <div className="hidden items-center gap-8 md:flex">
                     <Link
-                        href="/myplain"
+                        href="/myplan"
                         className="flex items-center gap-3 text-[16px] font-medium text-[#d4d4d8] transition hover:text-white"
                     >
                         <span>Plan</span>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        href="/myplain"
+                        href="/myplan"
                         className="flex items-center gap-3 text-[16px] font-medium text-[#a1a1aa] transition hover:text-white"
                     >
                         <span>Saved</span>

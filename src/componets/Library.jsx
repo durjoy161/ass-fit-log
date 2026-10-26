@@ -7,7 +7,7 @@ const getLibrary = async () => {
 }
 const Library = async () => {
     const libraryData = await getLibrary();
-    // console.log(LibraryData);
+    console.log(libraryData);
     return (
         <div className="min-h-screen bg-[#090a0c] px-4 py-6">
 

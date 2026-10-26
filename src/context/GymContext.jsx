@@ -1,7 +1,12 @@
 "use client";
 import React, { createContext, useState } from 'react';
 
-export const GymContext = createContext({});
+export const GymContext = createContext({
+    addPlan: [],
+    setaddPlan: () => { },
+    saveGym: [],
+    setsaveGym: () => { },
+});
 const GymProvider = ({ children }) => {
     const [addPlan, setaddPlan] = useState([]);
     const [saveGym, setsaveGym] = useState([]);
